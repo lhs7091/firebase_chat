@@ -48,12 +48,21 @@ public class SignInActivity extends AppCompatActivity {
                 signIn();
             }
         });
+
+        Intent signOutIntent = getIntent();
+        if(signOutIntent.getBooleanExtra("signOut", false)){
+            signOut();
+        }
     }
 
     public void signIn() {
         // Launches the sign in flow, the result is returned in onActivityResult
         Intent intent = mSignInClient.getSignInIntent();
         startActivityForResult(intent, RC_SIGN_IN);
+    }
+
+    public void signOut() {
+        mSignInClient.signOut();
     }
 
     @Override
@@ -90,4 +99,7 @@ public class SignInActivity extends AppCompatActivity {
             }
         });
     }
+
+
+
 }
