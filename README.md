@@ -1,7 +1,7 @@
 # firebase_chat
-  Android Android Studio 4.0.1
-  VM : OpenJDK 64-Bit Server VM by JetBrains s.r.o
-  DB : Firebase Realtime
+  Android Android Studio 4.0.1  
+  VM : OpenJDK 64-Bit Server VM by JetBrains s.r.o  
+  DB : Firebase Realtime  
 
 # Chat Display
   Text is able to display   
