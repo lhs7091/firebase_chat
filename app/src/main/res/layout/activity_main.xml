@@ -20,6 +20,7 @@
             android:id="@+id/message_edit"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="Please Input Message"
             android:layout_weight="1"/>
         <Button
             android:id="@+id/send_btn"
